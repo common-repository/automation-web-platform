@@ -1,0 +1,12 @@
+#billing_phone {
+  text-align: right;
+}
+#register_your_whatsapp {
+  text-align: right;
+}
+#login_your_whatsapp {
+  text-align: right;
+}
+.iti__selected-dial-code {
+  display: none !important;
+}

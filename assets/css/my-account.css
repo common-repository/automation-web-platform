@@ -1,0 +1,192 @@
+p.woocommerce-form-row.woocommerce-form-row--wide.form-row.form-row-wide.awp{
+	position: relative;
+}
+
+.iti__selected-dial-code {
+  display: none !important;
+}
+#login_your_whatsapp, #register_your_whatsapp{
+	margin-top: .5em;
+}
+
+span.select2-selection__arrow {
+	display: none;
+}
+
+p.form-row.awp-login-otp-submit + p {
+	display: none!important;
+}
+
+ul.login-response, ul.register-response {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: .5em;
+}
+
+li.awp-notice{
+	list-style: none;
+	display: flex;
+	border-radius: .5em;
+	padding: 0;
+}
+li.awp-notice.success {
+	background-color: #ace6ac;
+	color: #025902;
+}
+
+li.awp-notice.danger {
+	padding: 8px 24px;
+	background-color: #e6acac;
+	color: #590202;
+	gap: 6px;
+}
+
+.iti.iti--allow-dropdown {
+	width: 100% !important;
+}
+
+.whatsappcss {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+	background: #00a884 !important;
+	margin-top: 10px !important;
+}
+
+.whatsappcss:hover {
+	background: #0b7 !important;
+}
+
+.emailcss {
+    background: transparent !important;
+    color: inherit !important;
+    text-decoration: underline !important;
+    margin-top: 10px;
+    padding: 6px !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.emailcss:hover {
+    text-decoration: none;
+    color: #1689db !important;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme {
+  width: 100%;
+}
+
+
+.sendotpcss.woocommerce-button.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    padding: 0.6em 1em;
+    margin-top: 10px;
+}
+
+.sendotpcss {
+	background: #00a884 !important;
+}
+
+.sendotpcss:hover {
+	background: #0b7 !important;
+}
+
+
+.iti__selected-country {
+  z-index: 1;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+  background: none !important;
+  border: 0;
+  margin: 0;
+  padding: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  color: inherit;
+  border-radius: 0;
+  font-weight: inherit;
+  line-height: inherit;
+  text-decoration: none;
+}
+
+
+
+
+
+/** login form **/
+#wawp_login {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--wp--preset--font-family--body);
+}
+.awp-content {
+  width: 480px;
+  padding: 0 80px;
+}
+.login-title {
+  margin: 0;
+  font-family: var(--wp--preset--font-family--body);
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.wawp.woocommerce-Input {
+  min-height: 44px;
+  border-radius: 6px;
+  border: 1px solid #e3e3e3;
+  margin-top: 6px;
+  width: 100% !important;
+}
+.woocommerce-form__label.woocommerce-form__label-for-checkbox.woocommerce-form-login__rememberme {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+#awp_rememberme {
+  height: 18px;
+  width: 18px;
+  margin: 0;
+}
+:is(.register, .login) .button {
+  width: 100%;
+  min-height: 44px;
+  font-size: 16px;
+}
+.awp-label {
+  font-size: 15px;
+}
+.woocommerce-form-row.woocommerce-form-row--wide.form-row.form-row-wide {
+  margin: 16px 0;
+}
+.form-row.awp-login-otp-submit {
+  margin-top: 24px;
+}
+.iti input.iti__tel-input, .iti input.iti__tel-input[type="text"], .iti input.iti__tel-input[type="tel"] {
+  min-height: 44px;
+  border-radius: 6px;
+  border: 1px solid #e3e3e3;
+  font-size: inherit;
+  font-family: inherit;
+  margin-top: 6px;
+}
+.woocommerce-Input {
+  min-height: 44px;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+    font-size: inherit;
+  font-family: inherit;
+  margin-top: 6px;
+  width: 100% !important;
+}

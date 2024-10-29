@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+
+
+#awp-wrap {
+	font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+
+
+
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+	font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+#wpcontent {
+	padding-right: 0;
+	font-family: "IBM Plex Sans Arabic", sans-serif;
+  }
+  #wpbody-content {
+	font-family: "IBM Plex Sans Arabic", sans-serif;
+  }
+
+
+#wpbody
+{
+	font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+#login_url_redirection {
+	text-align: left !important;
+	direction: ltr !important;
+  }
+  #register_url_redirection {
+	text-align: left !important;
+	direction: ltr !important;
+  }

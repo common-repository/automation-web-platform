@@ -1,0 +1,2738 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Wawp - OTP Verification, Order Notifications, and "
+"Country Code Selector for WooCommerce\n"
+"POT-Creation-Date: 2024-08-15 07:30+0300\n"
+"PO-Revision-Date: 2024-08-15 07:48+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-awp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: pt\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/awp-checkout-admin.php:17 class-awp-checkout-otp.php:144
+#: class-awp-main.php:182
+msgid "Checkout OTP Verification"
+msgstr "Checkout Verificação OTP"
+
+#: admin/awp-checkout-admin.php:20
+msgid "Verifies transactions with a one-time checkout code sent via WhatsApp."
+msgstr ""
+"Verifica as transações com um código de checkout único enviado via WhatsApp."
+
+#: admin/awp-checkout-admin.php:21
+msgid "Checkout shortcode"
+msgstr "Código de acesso do checkout"
+
+#: admin/awp-checkout-admin.php:30 admin/wc-setting-page.php:38
+msgid "Save Settings"
+msgstr "Salvar Configurações"
+
+#: admin/settings/general.php:7
+msgid "Access Keys"
+msgstr "Chaves de Acesso"
+
+#: admin/settings/general.php:15 class-awp-mainset.php:114
+#: class-awp-mainset.php:143 class-awp-mainset.php:272
+#: class-awp-mainset.php:328 class-awp-ui.php:1787
+msgid "Instance ID"
+msgstr "ID da instância"
+
+#: admin/settings/general.php:16 class-awp-mainset.php:115
+#: class-awp-mainset.php:144 class-awp-mainset.php:273
+#: class-awp-mainset.php:329
+msgid "Your Instance ID"
+msgstr "Seu ID de instância"
+
+#: admin/settings/general.php:19 class-awp-mainset.php:118
+#: class-awp-mainset.php:147 class-awp-mainset.php:285
+#: class-awp-mainset.php:341
+msgid "Access Token"
+msgstr "Token de Acesso"
+
+#: admin/settings/general.php:20 class-awp-mainset.php:119
+#: class-awp-mainset.php:148 class-awp-mainset.php:286
+#: class-awp-mainset.php:342
+msgid "Your Access Token"
+msgstr "Seu Access Token"
+
+#: admin/settings/general.php:32
+msgid "General"
+msgstr "Geral"
+
+#: admin/settings/general.php:39 class-awp-mainset.php:300
+msgid "Activate login with WhatsApp"
+msgstr "Ativar login com WhatsApp"
+
+#: admin/settings/general.php:45 class-awp-mainset.php:315
+msgid "Activate validate register with WhatsApp"
+msgstr "Ativar validar cadastro no WhatsApp"
+
+#: admin/settings/login.php:3
+msgid "Login with OTP"
+msgstr "Entre com uma Chave"
+
+#: admin/settings/login.php:4
+msgid "Ensures secure login with a quick one-time password sent via WhatsApp."
+msgstr ""
+"Garante login seguro com uma senha rápida e de uso único enviada via "
+"WhatsApp."
+
+#: admin/settings/login.php:5
+msgid "Login shortcode"
+msgstr "Código de acesso de login"
+
+#: admin/settings/login.php:14
+msgid "Login OTP Message"
+msgstr "Mensagem OTP de login"
+
+#: admin/settings/login.php:15
+msgid "Sent when a customer logs in with their WhatsApp number."
+msgstr "Enviado quando um cliente faz login com seu número do WhatsApp."
+
+#: admin/settings/login.php:22 admin/settings/register.php:21
+#: class-awp-ui.php:141 class-awp-ui.php:920 class-awp-ui.php:1255
+#: class-awp-ui.php:1643 class-awp-ui.php:1735
+msgid "Write your message..."
+msgstr "Escreva sua mensagem..."
+
+#: admin/settings/login.php:26 admin/settings/register.php:27
+#: class-awp-checkout-otp.php:132
+msgid "Shortcodes: "
+msgstr "Códigos de acesso: "
+
+#: admin/settings/login.php:27 class-awp-checkout-otp.php:133
+msgid "Member name"
+msgstr "Nome do membro"
+
+#: admin/settings/login.php:28 admin/settings/register.php:28
+#: class-awp-checkout-otp.php:134
+msgid "Generated OTP code"
+msgstr "Código OTP gerado"
+
+#: admin/settings/login.php:39 admin/settings/register.php:36
+msgid "URL redirection"
+msgstr "Redirecionamento de URL"
+
+#: admin/settings/login.php:40 admin/settings/register.php:37
+msgid " "
+msgstr " "
+
+#: admin/settings/login.php:42 admin/settings/register.php:39
+#: class-awp-ui.php:140 class-awp-ui.php:919 class-awp-ui.php:1254
+#: class-awp-ui.php:1642 class-awp-ui.php:1734
+msgid "leave blank to deactivate"
+msgstr "deixe em branco para desativar"
+
+#: admin/settings/login.php:47 admin/settings/register.php:44
+msgid "* Redirection only work for WooCommerce native forms."
+msgstr ""
+"* O redirecionamento funciona apenas para formulários nativos do WooCommerce."
+
+#: admin/settings/register.php:3
+msgid "Signup OTP Verification"
+msgstr "Verificação OTP de inscrição"
+
+#: admin/settings/register.php:4
+msgid "Confirms new user registration with a one-time code sent via WhatsApp."
+msgstr ""
+"Confirma o registro de um novo usuário com um código único enviado via "
+"WhatsApp."
+
+#: admin/settings/register.php:5
+msgid "Register shortcode"
+msgstr "Código de acesso de registro"
+
+#: admin/settings/register.php:13
+msgid "Signup OTP Message"
+msgstr "Mensagem OTP de inscrição"
+
+#: admin/settings/register.php:14
+msgid "Sent when a customer registers with their WhatsApp number."
+msgstr "Enviado quando um cliente se registra com seu número do WhatsApp."
+
+#: admin/wc-setting-page.php:25 class-login.php:100 class-login.php:101
+#: templates/form-login-only.php:23 templates/form-login-only.php:42
+msgid "Login"
+msgstr "Entrar"
+
+#: admin/wc-setting-page.php:27 templates/form-register-only.php:22
+#: templates/form-register-only.php:55
+msgid "Register"
+msgstr "Registrar"
+
+#: class-awp-checkout-otp.php:34
+msgid "User is not logged in."
+msgstr "Usuário não está logado."
+
+#: class-awp-checkout-otp.php:40 class-awp-checkout-otp.php:213
+#: class-awp-checkout-otp.php:354
+msgid "Phone number is missing."
+msgstr "Falta o número de telefone."
+
+#: class-awp-checkout-otp.php:46
+msgid "Phone number updated successfully."
+msgstr "Número de telefone atualizado com sucesso."
+
+#: class-awp-checkout-otp.php:55 class-awp-checkout-otp.php:414
+msgid "OTP sent successfully via WhatsApp."
+msgstr "OTP enviado com sucesso via WhatsApp."
+
+#: class-awp-checkout-otp.php:56
+msgid "Failed to send OTP. Please try again."
+msgstr "Falha ao enviar OTP. Por favor, tente novamente."
+
+#: class-awp-checkout-otp.php:57 class-awp-checkout-otp.php:432
+msgid "OTP verified successfully."
+msgstr "OTP verificado com sucesso."
+
+#: class-awp-checkout-otp.php:58 class-awp-checkout-otp.php:434
+msgid "Incorrect OTP. Please try again."
+msgstr "OTP incorreto. Por favor, tente novamente."
+
+#: class-awp-checkout-otp.php:59
+msgid ""
+"This phone number is already registered. Please login or use a different "
+"number."
+msgstr ""
+"Este número de telefone já está registrado. Faça login ou use um número "
+"diferente."
+
+#: class-awp-checkout-otp.php:88
+msgid "Enable checkout verification"
+msgstr "Habilitar verificação de checkout"
+
+#: class-awp-checkout-otp.php:89
+msgid "Disable for logged in users"
+msgstr "Desativar para usuários conectados"
+
+#: class-awp-checkout-otp.php:90
+msgid "Message template"
+msgstr "Modelo de mensagem"
+
+#: class-awp-checkout-otp.php:91
+msgid "Blocked phone numbers"
+msgstr "Números de telefone bloqueados"
+
+#: class-awp-checkout-otp.php:97
+msgid "Enter blocked phone numbers separated by commas (,)."
+msgstr "Insira os números de telefone bloqueados separados por vírgulas (,)."
+
+#: class-awp-checkout-otp.php:123
+msgid "Checkout OTP message"
+msgstr "Mensagem OTP de checkout"
+
+#: class-awp-checkout-otp.php:124
+msgid "Sent during checkout to verify the customer's number."
+msgstr ""
+"Enviado durante a finalização da compra para verificar o número do cliente."
+
+#: class-awp-checkout-otp.php:145 class-awp-main.php:183
+msgid "Checkout OTP"
+msgstr "Checkout OTP"
+
+#: class-awp-checkout-otp.php:185
+msgid "Blocked numbers saved successfully."
+msgstr "Números bloqueados salvos com sucesso."
+
+#: class-awp-checkout-otp.php:226 class-awp-checkout-otp.php:362
+msgid "This phone number is blocked."
+msgstr "Este número de telefone está bloqueado."
+
+#: class-awp-checkout-otp.php:242
+msgid "Phone number matches user account and is verified."
+msgstr "O número de telefone corresponde à conta do usuário e é verificado."
+
+#: class-awp-checkout-otp.php:249
+msgid "Phone number matches user account but is not verified."
+msgstr ""
+"O número de telefone corresponde à conta do usuário, mas não é verificado."
+
+#: class-awp-checkout-otp.php:270
+msgid "This phone number is already registered. Please use a different number."
+msgstr ""
+"Este número de telefone já está registrado. Por favor, use um número "
+"diferente."
+
+#: class-awp-checkout-otp.php:279
+msgid "Phone number is not registered."
+msgstr "O número de telefone não está registrado."
+
+#: class-awp-checkout-otp.php:297 class-awp-checkout-otp.php:470
+msgid "This phone number is blocked. Please use a different number."
+msgstr ""
+"Este número de telefone está bloqueado. Por favor, use um número diferente."
+
+#: class-awp-checkout-otp.php:310
+msgid "Confirm your order"
+msgstr "Confirme a sua compra"
+
+#: class-awp-checkout-otp.php:315
+msgid "To complete your order, enter the 6-digit code sent via WhatsApp to"
+msgstr ""
+"Para concluir seu pedido, digite o código de 6 dígitos enviado via WhatsApp "
+"para"
+
+#: class-awp-checkout-otp.php:329
+msgid "Confirm order"
+msgstr "Confirme o pedido"
+
+#: class-awp-checkout-otp.php:330
+msgid "Resend code"
+msgstr "Reenviar código"
+
+#: class-awp-checkout-otp.php:335
+msgid "Powered by"
+msgstr "Desenvolvido por"
+
+#: class-awp-checkout-otp.php:375 class-awp-checkout-otp.php:376
+msgid "Instance ID or Access Token is missing."
+msgstr "A ID da instância ou o token de acesso estão ausentes."
+
+#: class-awp-checkout-otp.php:403 class-awp-checkout-otp.php:404
+msgid "Failed to send OTP via WhatsApp. Error: "
+msgstr "Falha ao enviar OTP via WhatsApp. Erro: "
+
+#: class-awp-checkout-otp.php:412
+msgid "Failed to send OTP via WhatsApp. Response: "
+msgstr "Falha ao enviar OTP via WhatsApp. Resposta: "
+
+#: class-awp-checkout-otp.php:455
+msgid "Please verify the OTP before placing your order."
+msgstr "Por favor, verifique o OTP antes de fazer seu pedido."
+
+#: class-awp-checkout-otp.php:475
+msgid "Whatsapp Number"
+msgstr "Número do Whatsapp"
+
+#: class-awp-checkout-otp.php:476
+msgid "WhatsApp Verified"
+msgstr "WhatsApp verificado"
+
+#: class-awp-checkout-otp.php:483
+msgid "N/A"
+msgstr "N/D"
+
+#: class-awp-countrycode.php:87 class-awp-countrycode.php:131
+msgid "Change"
+msgstr "Alterar"
+
+#: class-awp-countrycode.php:88
+msgid "Select Default Country"
+msgstr "Selecione o país padrão"
+
+#: class-awp-countrycode.php:89 class-awp-countrycode.php:153
+#: class-awp-countrycode.php:318
+msgid "Settings saved successfully!"
+msgstr "Configurações salvas com sucesso!"
+
+#: class-awp-countrycode.php:90 class-awp-countrycode.php:155
+msgid "Invalid option page."
+msgstr "Página de opção inválida."
+
+#: class-awp-countrycode.php:176 class-awp-main.php:144
+msgid "Country code settings"
+msgstr "Configurações de código de país"
+
+#: class-awp-countrycode.php:177 class-awp-main.php:145
+msgid "Country Code"
+msgstr "Código do País"
+
+#: class-awp-countrycode.php:201
+msgid "Default country code"
+msgstr "Código padrão do país"
+
+#: class-awp-countrycode.php:202
+msgid "Country codes whitelist"
+msgstr "Lista de permissões de códigos de país"
+
+#: class-awp-countrycode.php:212
+msgid "Wawp Country code settings"
+msgstr "Configurações de código de país Wawp"
+
+#: class-awp-countrycode.php:213
+msgid ""
+"Configure the default country code and the list of allowed countries for the "
+"WordPress login and register forms, as well as the WooCommerce checkout form."
+msgstr ""
+"Configure o código do país padrão e a lista de países permitidos para os "
+"formulários de login e registro do WordPress, bem como o formulário de "
+"checkout do WooCommerce."
+
+#: class-awp-countrycode.php:217
+msgid "Enabled Country"
+msgstr "País habilitado"
+
+#: class-awp-countrycode.php:221
+msgid "Disabled Country"
+msgstr "País com deficiência"
+
+#: class-awp-countrycode.php:279
+msgid "Search for countries..."
+msgstr "Procurar países..."
+
+#: class-awp-countrycode.php:280
+msgid "Select All"
+msgstr "Selecionar Tudo"
+
+#: class-awp-countrycode.php:281
+msgid "Deselect All"
+msgstr "Limpar seleção"
+
+#: class-awp-countrycode.php:317
+msgid "Settings saved"
+msgstr "Configurações salvas"
+
+#: class-awp-countrycode.php:333
+msgid "Egypt"
+msgstr "Egito"
+
+#: class-awp-countrycode.php:335 class-awp-countrycode.php:341
+#: class-awp-countrycode.php:437 class-awp-countrycode.php:845
+#: class-awp-countrycode.php:851 class-awp-countrycode.php:881
+#: class-awp-countrycode.php:917 class-awp-countrycode.php:941
+#: class-awp-countrycode.php:1163 class-awp-countrycode.php:1181
+#: class-awp-countrycode.php:1229 class-awp-countrycode.php:1391
+#: class-awp-countrycode.php:1451 class-awp-countrycode.php:1481
+#: class-awp-countrycode.php:1529
+msgid "Middle East"
+msgstr "Oriente Médio"
+
+#: class-awp-countrycode.php:339
+msgid "Saudi Arabia"
+msgstr "Arábia Saudita"
+
+#: class-awp-countrycode.php:345
+msgid "Afghanistan"
+msgstr "Afeganistão"
+
+#: class-awp-countrycode.php:347 class-awp-countrycode.php:443
+#: class-awp-countrycode.php:485 class-awp-countrycode.php:515
+#: class-awp-countrycode.php:545 class-awp-countrycode.php:581
+#: class-awp-countrycode.php:815 class-awp-countrycode.php:833
+#: class-awp-countrycode.php:839 class-awp-countrycode.php:875
+#: class-awp-countrycode.php:887 class-awp-countrycode.php:905
+#: class-awp-countrycode.php:911 class-awp-countrycode.php:923
+#: class-awp-countrycode.php:929 class-awp-countrycode.php:983
+#: class-awp-countrycode.php:1001 class-awp-countrycode.php:1007
+#: class-awp-countrycode.php:1067 class-awp-countrycode.php:1091
+#: class-awp-countrycode.php:1109 class-awp-countrycode.php:1169
+#: class-awp-countrycode.php:1211 class-awp-countrycode.php:1313
+#: class-awp-countrycode.php:1361 class-awp-countrycode.php:1397
+#: class-awp-countrycode.php:1403 class-awp-countrycode.php:1415
+#: class-awp-countrycode.php:1421 class-awp-countrycode.php:1457
+#: class-awp-countrycode.php:1505 class-awp-countrycode.php:1523
+msgid "Asia"
+msgstr "Ásia"
+
+#: class-awp-countrycode.php:351
+msgid "Albania"
+msgstr "Albânia"
+
+#: class-awp-countrycode.php:353 class-awp-countrycode.php:371
+#: class-awp-countrycode.php:401 class-awp-countrycode.php:419
+#: class-awp-countrycode.php:425 class-awp-countrycode.php:455
+#: class-awp-countrycode.php:461 class-awp-countrycode.php:497
+#: class-awp-countrycode.php:521 class-awp-countrycode.php:623
+#: class-awp-countrycode.php:635 class-awp-countrycode.php:641
+#: class-awp-countrycode.php:647 class-awp-countrycode.php:695
+#: class-awp-countrycode.php:719 class-awp-countrycode.php:725
+#: class-awp-countrycode.php:743 class-awp-countrycode.php:749
+#: class-awp-countrycode.php:761 class-awp-countrycode.php:821
+#: class-awp-countrycode.php:827 class-awp-countrycode.php:857
+#: class-awp-countrycode.php:863 class-awp-countrycode.php:935
+#: class-awp-countrycode.php:965 class-awp-countrycode.php:971
+#: class-awp-countrycode.php:977 class-awp-countrycode.php:1019
+#: class-awp-countrycode.php:1055 class-awp-countrycode.php:1061
+#: class-awp-countrycode.php:1073 class-awp-countrycode.php:1115
+#: class-awp-countrycode.php:1151 class-awp-countrycode.php:1157
+#: class-awp-countrycode.php:1217 class-awp-countrycode.php:1223
+#: class-awp-countrycode.php:1235 class-awp-countrycode.php:1241
+#: class-awp-countrycode.php:1277 class-awp-countrycode.php:1295
+#: class-awp-countrycode.php:1319 class-awp-countrycode.php:1325
+#: class-awp-countrycode.php:1355 class-awp-countrycode.php:1379
+#: class-awp-countrycode.php:1385 class-awp-countrycode.php:1475
+#: class-awp-countrycode.php:1487
+msgid "Europe"
+msgstr "Europa"
+
+#: class-awp-countrycode.php:357
+msgid "Algeria"
+msgstr "Argélia"
+
+#: class-awp-countrycode.php:359 class-awp-countrycode.php:377
+#: class-awp-countrycode.php:473 class-awp-countrycode.php:503
+#: class-awp-countrycode.php:527 class-awp-countrycode.php:533
+#: class-awp-countrycode.php:539 class-awp-countrycode.php:551
+#: class-awp-countrycode.php:563 class-awp-countrycode.php:569
+#: class-awp-countrycode.php:593 class-awp-countrycode.php:599
+#: class-awp-countrycode.php:605 class-awp-countrycode.php:617
+#: class-awp-countrycode.php:653 class-awp-countrycode.php:683
+#: class-awp-countrycode.php:689 class-awp-countrycode.php:701
+#: class-awp-countrycode.php:707 class-awp-countrycode.php:731
+#: class-awp-countrycode.php:737 class-awp-countrycode.php:755
+#: class-awp-countrycode.php:785 class-awp-countrycode.php:791
+#: class-awp-countrycode.php:893 class-awp-countrycode.php:947
+#: class-awp-countrycode.php:953 class-awp-countrycode.php:959
+#: class-awp-countrycode.php:989 class-awp-countrycode.php:995
+#: class-awp-countrycode.php:1013 class-awp-countrycode.php:1031
+#: class-awp-countrycode.php:1037 class-awp-countrycode.php:1079
+#: class-awp-countrycode.php:1085 class-awp-countrycode.php:1097
+#: class-awp-countrycode.php:1133 class-awp-countrycode.php:1139
+#: class-awp-countrycode.php:1247 class-awp-countrycode.php:1283
+#: class-awp-countrycode.php:1289 class-awp-countrycode.php:1301
+#: class-awp-countrycode.php:1307 class-awp-countrycode.php:1337
+#: class-awp-countrycode.php:1343 class-awp-countrycode.php:1349
+#: class-awp-countrycode.php:1367 class-awp-countrycode.php:1409
+#: class-awp-countrycode.php:1427 class-awp-countrycode.php:1445
+#: class-awp-countrycode.php:1469 class-awp-countrycode.php:1535
+#: class-awp-countrycode.php:1541
+msgid "Africa"
+msgstr "África"
+
+#: class-awp-countrycode.php:363
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: class-awp-countrycode.php:365 class-awp-countrycode.php:413
+#: class-awp-countrycode.php:713 class-awp-countrycode.php:773
+#: class-awp-countrycode.php:899 class-awp-countrycode.php:1025
+#: class-awp-countrycode.php:1049 class-awp-countrycode.php:1103
+#: class-awp-countrycode.php:1121 class-awp-countrycode.php:1145
+#: class-awp-countrycode.php:1175 class-awp-countrycode.php:1193
+#: class-awp-countrycode.php:1271 class-awp-countrycode.php:1331
+#: class-awp-countrycode.php:1433 class-awp-countrycode.php:1463
+#: class-awp-countrycode.php:1511
+msgid "Oceania"
+msgstr "Oceania"
+
+#: class-awp-countrycode.php:369
+msgid "Andorra"
+msgstr "Andorra"
+
+#: class-awp-countrycode.php:375
+msgid "Angola"
+msgstr "Angola"
+
+#: class-awp-countrycode.php:381
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: class-awp-countrycode.php:383 class-awp-countrycode.php:389
+#: class-awp-countrycode.php:395 class-awp-countrycode.php:407
+#: class-awp-countrycode.php:431 class-awp-countrycode.php:449
+#: class-awp-countrycode.php:467 class-awp-countrycode.php:479
+#: class-awp-countrycode.php:491 class-awp-countrycode.php:509
+#: class-awp-countrycode.php:557 class-awp-countrycode.php:575
+#: class-awp-countrycode.php:587 class-awp-countrycode.php:611
+#: class-awp-countrycode.php:629 class-awp-countrycode.php:659
+#: class-awp-countrycode.php:665 class-awp-countrycode.php:671
+#: class-awp-countrycode.php:677 class-awp-countrycode.php:767
+#: class-awp-countrycode.php:779 class-awp-countrycode.php:797
+#: class-awp-countrycode.php:803 class-awp-countrycode.php:809
+#: class-awp-countrycode.php:869 class-awp-countrycode.php:1043
+#: class-awp-countrycode.php:1127 class-awp-countrycode.php:1187
+#: class-awp-countrycode.php:1199 class-awp-countrycode.php:1205
+#: class-awp-countrycode.php:1253 class-awp-countrycode.php:1259
+#: class-awp-countrycode.php:1265 class-awp-countrycode.php:1373
+#: class-awp-countrycode.php:1439 class-awp-countrycode.php:1493
+#: class-awp-countrycode.php:1499 class-awp-countrycode.php:1517
+msgid "Americas"
+msgstr "Américas"
+
+#: class-awp-countrycode.php:387
+msgid "Antigua and Barbuda"
+msgstr "Antígua e Barbuda"
+
+#: class-awp-countrycode.php:393
+msgid "Argentina"
+msgstr "Argentina"
+
+#: class-awp-countrycode.php:399
+msgid "Armenia"
+msgstr "Armênia"
+
+#: class-awp-countrycode.php:405
+msgid "Aruba"
+msgstr "Aruba"
+
+#: class-awp-countrycode.php:411
+msgid "Australia"
+msgstr "Austrália"
+
+#: class-awp-countrycode.php:417
+msgid "Austria"
+msgstr "Áustria"
+
+#: class-awp-countrycode.php:423
+msgid "Azerbaijan"
+msgstr "Azerbaijão"
+
+#: class-awp-countrycode.php:429
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: class-awp-countrycode.php:435
+msgid "Bahrain"
+msgstr "Barein"
+
+#: class-awp-countrycode.php:441
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: class-awp-countrycode.php:447
+msgid "Barbados"
+msgstr "Barbados"
+
+#: class-awp-countrycode.php:453
+msgid "Belarus"
+msgstr "Bielorrússia"
+
+#: class-awp-countrycode.php:459
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: class-awp-countrycode.php:465
+msgid "Belize"
+msgstr "Belize"
+
+#: class-awp-countrycode.php:471
+msgid "Benin"
+msgstr "Benim"
+
+#: class-awp-countrycode.php:477
+msgid "Bermuda"
+msgstr "Bermudas"
+
+#: class-awp-countrycode.php:483
+msgid "Bhutan"
+msgstr "Butão"
+
+#: class-awp-countrycode.php:489
+msgid "Bolivia"
+msgstr "Bolívia"
+
+#: class-awp-countrycode.php:495
+msgid "Bosnia and Herzegovina"
+msgstr "Bósnia e Herzegovina"
+
+#: class-awp-countrycode.php:501
+msgid "Botswana"
+msgstr "Botsuana"
+
+#: class-awp-countrycode.php:507
+msgid "Brazil"
+msgstr "Brasil"
+
+#: class-awp-countrycode.php:513
+msgid "Brunei"
+msgstr "Brunei"
+
+#: class-awp-countrycode.php:519
+msgid "Bulgaria"
+msgstr "Bulgária"
+
+#: class-awp-countrycode.php:525
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: class-awp-countrycode.php:531
+msgid "Burundi"
+msgstr "Burundi"
+
+#: class-awp-countrycode.php:537
+msgid "Cabo Verde"
+msgstr "Cabo verde"
+
+#: class-awp-countrycode.php:543
+msgid "Cambodia"
+msgstr "Camboja"
+
+#: class-awp-countrycode.php:549
+msgid "Cameroon"
+msgstr "Camarões"
+
+#: class-awp-countrycode.php:555
+msgid "Canada"
+msgstr "Canadá"
+
+#: class-awp-countrycode.php:561
+msgid "Central African Republic"
+msgstr "República da África Central"
+
+#: class-awp-countrycode.php:567
+msgid "Chad"
+msgstr "Chade"
+
+#: class-awp-countrycode.php:573
+msgid "Chile"
+msgstr "Chile"
+
+#: class-awp-countrycode.php:579
+msgid "China"
+msgstr "China"
+
+#: class-awp-countrycode.php:585
+msgid "Colombia"
+msgstr "Colômbia"
+
+#: class-awp-countrycode.php:591
+msgid "Comoros"
+msgstr "Comores"
+
+#: class-awp-countrycode.php:597
+msgid "Congo, Democratic"
+msgstr "Congo, Democrático"
+
+#: class-awp-countrycode.php:603
+msgid "Congo"
+msgstr "Congo"
+
+#: class-awp-countrycode.php:609
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: class-awp-countrycode.php:615
+msgid "Cote d'ivoire"
+msgstr "Costa do Marfim"
+
+#: class-awp-countrycode.php:621
+msgid "Croatia"
+msgstr "Croácia"
+
+#: class-awp-countrycode.php:627
+msgid "Cuba"
+msgstr "Cuba"
+
+#: class-awp-countrycode.php:633
+msgid "Cyprus"
+msgstr "Chipre"
+
+#: class-awp-countrycode.php:639
+msgid "Czech Republic"
+msgstr "República Checa"
+
+#: class-awp-countrycode.php:645
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: class-awp-countrycode.php:651
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: class-awp-countrycode.php:657
+msgid "Dominica"
+msgstr "Dominica"
+
+#: class-awp-countrycode.php:663
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: class-awp-countrycode.php:669
+msgid "Ecuador"
+msgstr "Equador"
+
+#: class-awp-countrycode.php:675
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: class-awp-countrycode.php:681
+msgid "Equatorial Guinea"
+msgstr "Guiné Equatorial"
+
+#: class-awp-countrycode.php:687
+msgid "Eritrea"
+msgstr "Eritreia"
+
+#: class-awp-countrycode.php:693
+msgid "Estonia"
+msgstr "Estônia"
+
+#: class-awp-countrycode.php:699
+msgid "Eswatini"
+msgstr "Eswatini"
+
+#: class-awp-countrycode.php:705
+msgid "Ethiopia"
+msgstr "Etiópia"
+
+#: class-awp-countrycode.php:711
+msgid "Fiji"
+msgstr "Fiji"
+
+#: class-awp-countrycode.php:717
+msgid "Finland"
+msgstr "Finlândia"
+
+#: class-awp-countrycode.php:723
+msgid "France"
+msgstr "França"
+
+#: class-awp-countrycode.php:729
+msgid "Gabon"
+msgstr "Gabão"
+
+#: class-awp-countrycode.php:735
+msgid "Gambia"
+msgstr "Gâmbia"
+
+#: class-awp-countrycode.php:741
+msgid "Georgia"
+msgstr "Geórgia"
+
+#: class-awp-countrycode.php:747
+msgid "Germany"
+msgstr "Alemanha"
+
+#: class-awp-countrycode.php:753
+msgid "Ghana"
+msgstr "Gana"
+
+#: class-awp-countrycode.php:759
+msgid "Greece"
+msgstr "Grécia"
+
+#: class-awp-countrycode.php:765
+msgid "Grenada"
+msgstr "Granada"
+
+#: class-awp-countrycode.php:771
+msgid "Guam"
+msgstr "Guam"
+
+#: class-awp-countrycode.php:777
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: class-awp-countrycode.php:783
+msgid "Guinea"
+msgstr "Guiné"
+
+#: class-awp-countrycode.php:789
+msgid "Guinea-Bissau"
+msgstr "Guiné-Bissau"
+
+#: class-awp-countrycode.php:795
+msgid "Guyana"
+msgstr "Guiana"
+
+#: class-awp-countrycode.php:801
+msgid "Haiti"
+msgstr "Haiti"
+
+#: class-awp-countrycode.php:807
+msgid "Honduras"
+msgstr "Honduras"
+
+#: class-awp-countrycode.php:813
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: class-awp-countrycode.php:819
+msgid "Hungary"
+msgstr "Hungria"
+
+#: class-awp-countrycode.php:825
+msgid "Iceland"
+msgstr "Islândia"
+
+#: class-awp-countrycode.php:831
+msgid "India"
+msgstr "Índia"
+
+#: class-awp-countrycode.php:837
+msgid "Indonesia"
+msgstr "Indonésia"
+
+#: class-awp-countrycode.php:843
+msgid "Iran"
+msgstr "Irã"
+
+#: class-awp-countrycode.php:849
+msgid "Iraq"
+msgstr "Iraque"
+
+#: class-awp-countrycode.php:855
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: class-awp-countrycode.php:861
+msgid "Italy"
+msgstr "Itália"
+
+#: class-awp-countrycode.php:867
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: class-awp-countrycode.php:873
+msgid "Japan"
+msgstr "Japão"
+
+#: class-awp-countrycode.php:879
+msgid "Jordan"
+msgstr "Jordânia"
+
+#: class-awp-countrycode.php:885
+msgid "Kazakhstan"
+msgstr "Cazaquistão"
+
+#: class-awp-countrycode.php:891
+msgid "Kenya"
+msgstr "Quênia"
+
+#: class-awp-countrycode.php:897
+msgid "Kiribati"
+msgstr "Quiribáti"
+
+#: class-awp-countrycode.php:903
+msgid "North Korea"
+msgstr "Coréia do Norte"
+
+#: class-awp-countrycode.php:909
+msgid "South Korea"
+msgstr "Coréia do Sul"
+
+#: class-awp-countrycode.php:915
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: class-awp-countrycode.php:921
+msgid "Kyrgyzstan"
+msgstr "Quirguistão"
+
+#: class-awp-countrycode.php:927
+msgid "Lao People's Democratic Republic"
+msgstr "Pessoas da República Democrática do Laos"
+
+#: class-awp-countrycode.php:933
+msgid "Latvia"
+msgstr "Letônia"
+
+#: class-awp-countrycode.php:939
+msgid "Lebanon"
+msgstr "Líbano"
+
+#: class-awp-countrycode.php:945
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: class-awp-countrycode.php:951
+msgid "Liberia"
+msgstr "Libéria"
+
+#: class-awp-countrycode.php:957
+msgid "Libya"
+msgstr "Líbia"
+
+#: class-awp-countrycode.php:963
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: class-awp-countrycode.php:969
+msgid "Lithuania"
+msgstr "Lituânia"
+
+#: class-awp-countrycode.php:975
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: class-awp-countrycode.php:981
+msgid "Macao"
+msgstr "Macau"
+
+#: class-awp-countrycode.php:987
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: class-awp-countrycode.php:993
+msgid "Malawi"
+msgstr "Malawi"
+
+#: class-awp-countrycode.php:999
+msgid "Malaysia"
+msgstr "Malásia"
+
+#: class-awp-countrycode.php:1005
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: class-awp-countrycode.php:1011
+msgid "Mali"
+msgstr "Mali"
+
+#: class-awp-countrycode.php:1017
+msgid "Malta"
+msgstr "Malta"
+
+#: class-awp-countrycode.php:1023
+msgid "Marshall Islands"
+msgstr "Ilhas Marshall"
+
+#: class-awp-countrycode.php:1029
+msgid "Mauritania"
+msgstr "Mauritânia"
+
+#: class-awp-countrycode.php:1035
+msgid "Mauritius"
+msgstr "Maurício"
+
+#: class-awp-countrycode.php:1041
+msgid "Mexico"
+msgstr "México"
+
+#: class-awp-countrycode.php:1047
+msgid "Micronesia"
+msgstr "Micronésia"
+
+#: class-awp-countrycode.php:1053
+msgid "Moldova"
+msgstr "Moldávia"
+
+#: class-awp-countrycode.php:1059
+msgid "Monaco"
+msgstr "Mônaco"
+
+#: class-awp-countrycode.php:1065
+msgid "Mongolia"
+msgstr "Mongólia"
+
+#: class-awp-countrycode.php:1071
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: class-awp-countrycode.php:1077
+msgid "Morocco"
+msgstr "Marrocos"
+
+#: class-awp-countrycode.php:1083
+msgid "Mozambique"
+msgstr "Moçambique"
+
+#: class-awp-countrycode.php:1089
+msgid "Myanmar"
+msgstr "República da União de Myanmar"
+
+#: class-awp-countrycode.php:1095
+msgid "Namibia"
+msgstr "Namíbia"
+
+#: class-awp-countrycode.php:1101
+msgid "Nauru"
+msgstr "Nauru"
+
+#: class-awp-countrycode.php:1107
+msgid "Nepal"
+msgstr "Nepal"
+
+#: class-awp-countrycode.php:1113
+msgid "Netherlands"
+msgstr "Holanda"
+
+#: class-awp-countrycode.php:1119
+msgid "New Zealand"
+msgstr "Nova Zelândia"
+
+#: class-awp-countrycode.php:1125
+msgid "Nicaragua"
+msgstr "Nicarágua"
+
+#: class-awp-countrycode.php:1131
+msgid "Niger"
+msgstr "Níger"
+
+#: class-awp-countrycode.php:1137
+msgid "Nigeria"
+msgstr "Nigéria"
+
+#: class-awp-countrycode.php:1143
+msgid "Niue"
+msgstr "Niue"
+
+#: class-awp-countrycode.php:1149
+msgid "North Macedonia"
+msgstr "Macedónia do Norte"
+
+#: class-awp-countrycode.php:1155
+msgid "Norway"
+msgstr "Noruega"
+
+#: class-awp-countrycode.php:1161
+msgid "Oman"
+msgstr "Omã"
+
+#: class-awp-countrycode.php:1167
+msgid "Pakistan"
+msgstr "Paquistão"
+
+#: class-awp-countrycode.php:1173
+msgid "Palau"
+msgstr "Palau"
+
+#: class-awp-countrycode.php:1179
+msgid "Palestine"
+msgstr "Palestina"
+
+#: class-awp-countrycode.php:1185
+msgid "Panama"
+msgstr "Panamá"
+
+#: class-awp-countrycode.php:1191
+msgid "Papua New Guinea"
+msgstr "Papua-Nova Guiné"
+
+#: class-awp-countrycode.php:1197
+msgid "Paraguay"
+msgstr "Paraguai"
+
+#: class-awp-countrycode.php:1203
+msgid "Peru"
+msgstr "Peru"
+
+#: class-awp-countrycode.php:1209
+msgid "Philippines"
+msgstr "Filipinas"
+
+#: class-awp-countrycode.php:1215
+msgid "Poland"
+msgstr "Polônia"
+
+#: class-awp-countrycode.php:1221
+msgid "Portugal"
+msgstr "Portugal"
+
+#: class-awp-countrycode.php:1227
+msgid "Qatar"
+msgstr "Catar"
+
+#: class-awp-countrycode.php:1233
+msgid "Romania"
+msgstr "Romênia"
+
+#: class-awp-countrycode.php:1239
+msgid "Russia"
+msgstr "Rússia"
+
+#: class-awp-countrycode.php:1245
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: class-awp-countrycode.php:1251
+msgid "Saint Kitts and Nevis"
+msgstr "São Cristóvão e Nevis"
+
+#: class-awp-countrycode.php:1257
+msgid "Saint Lucia"
+msgstr "Santa Lúcia"
+
+#: class-awp-countrycode.php:1263
+msgid "Saint Vincent and the Grenadines"
+msgstr "São Vicente e Granadinas"
+
+#: class-awp-countrycode.php:1269
+msgid "Samoa"
+msgstr "Samoa"
+
+#: class-awp-countrycode.php:1275
+msgid "San Marino"
+msgstr "San Marino"
+
+#: class-awp-countrycode.php:1281
+msgid "Sao Tome and Principe"
+msgstr "São Tomé e Príncipe"
+
+#: class-awp-countrycode.php:1287
+msgid "Senegal"
+msgstr "Senegal"
+
+#: class-awp-countrycode.php:1293
+msgid "Serbia"
+msgstr "Sérvia"
+
+#: class-awp-countrycode.php:1299
+msgid "Seychelles"
+msgstr "Seicheles"
+
+#: class-awp-countrycode.php:1305
+msgid "Sierra Leone"
+msgstr "Serra Leoa"
+
+#: class-awp-countrycode.php:1311
+msgid "Singapore"
+msgstr "Singapura"
+
+#: class-awp-countrycode.php:1317
+msgid "Slovakia"
+msgstr "Eslováquia"
+
+#: class-awp-countrycode.php:1323
+msgid "Slovenia"
+msgstr "Eslovênia"
+
+#: class-awp-countrycode.php:1329
+msgid "Solomon Islands"
+msgstr "Ilhas Salomão"
+
+#: class-awp-countrycode.php:1335
+msgid "Somalia"
+msgstr "Somália"
+
+#: class-awp-countrycode.php:1341
+msgid "South Africa"
+msgstr "África do Sul"
+
+#: class-awp-countrycode.php:1347
+msgid "South Sudan"
+msgstr "Sudão do Sul"
+
+#: class-awp-countrycode.php:1353
+msgid "Spain"
+msgstr "Espanha"
+
+#: class-awp-countrycode.php:1359
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: class-awp-countrycode.php:1365
+msgid "Sudan"
+msgstr "Sudão"
+
+#: class-awp-countrycode.php:1371
+msgid "Suriname"
+msgstr "Suriname"
+
+#: class-awp-countrycode.php:1377
+msgid "Sweden"
+msgstr "Suécia"
+
+#: class-awp-countrycode.php:1383
+msgid "Switzerland"
+msgstr "Suiça"
+
+#: class-awp-countrycode.php:1389
+msgid "Syrian Arab Republic"
+msgstr "Síria"
+
+#: class-awp-countrycode.php:1395
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: class-awp-countrycode.php:1401
+msgid "Tajikistan"
+msgstr "Tajiquistão"
+
+#: class-awp-countrycode.php:1407
+msgid "Tanzania"
+msgstr "Tanzânia"
+
+#: class-awp-countrycode.php:1413
+msgid "Thailand"
+msgstr "Tailândia"
+
+#: class-awp-countrycode.php:1419
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: class-awp-countrycode.php:1425
+msgid "Togo"
+msgstr "Togo"
+
+#: class-awp-countrycode.php:1431
+msgid "Tonga"
+msgstr "Tonga"
+
+#: class-awp-countrycode.php:1437
+msgid "Trinidad and Tobago"
+msgstr "Trindade e Tobago"
+
+#: class-awp-countrycode.php:1443
+msgid "Tunisia"
+msgstr "Tunísia"
+
+#: class-awp-countrycode.php:1449
+msgid "Turkey"
+msgstr "Turquia"
+
+#: class-awp-countrycode.php:1455
+msgid "Turkmenistan"
+msgstr "Turcomenistão"
+
+#: class-awp-countrycode.php:1461
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: class-awp-countrycode.php:1467
+msgid "Uganda"
+msgstr "Uganda"
+
+#: class-awp-countrycode.php:1473
+msgid "Ukraine"
+msgstr "Ucrânia"
+
+#: class-awp-countrycode.php:1479
+msgid "United Arab Emirates"
+msgstr "Emirados Árabes Unidos"
+
+#: class-awp-countrycode.php:1485
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+#: class-awp-countrycode.php:1491
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: class-awp-countrycode.php:1497
+msgid "Uruguay"
+msgstr "Uruguai"
+
+#: class-awp-countrycode.php:1503
+msgid "Uzbekistan"
+msgstr "Uzbequistão"
+
+#: class-awp-countrycode.php:1509
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: class-awp-countrycode.php:1515
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: class-awp-countrycode.php:1521
+msgid "Vietnam"
+msgstr "Vietnã"
+
+#: class-awp-countrycode.php:1527
+msgid "Yemen"
+msgstr "Iémen"
+
+#: class-awp-countrycode.php:1533
+msgid "Zambia"
+msgstr "Zâmbia"
+
+#: class-awp-countrycode.php:1539
+msgid "Zimbabwe"
+msgstr "Zimbábue"
+
+#: class-awp-main.php:117
+msgid ""
+"Wawp, It is recommended to enable \"High-performance order storage\" and "
+"\"Enable compatibility mode\" in WooCommerce for better performance."
+msgstr ""
+"Uau, Recomenda-se habilitar \"Armazenamento de pedidos de alto desempenho\" "
+"e \"Ativar modo de compatibilidade\" no WooCommerce para melhor desempenho."
+
+#: class-awp-main.php:121
+msgid "Click here to enable these options."
+msgstr "Clique aqui para ativar essas opções."
+
+#: class-awp-main.php:124
+msgid "I have already activated the setting"
+msgstr "Já ativei a configuração"
+
+#: class-awp-main.php:137 class-awp-main.php:138
+msgid "Sender Settings"
+msgstr "Configurações do Remetente"
+
+#: class-awp-main.php:151
+msgid "Notifications"
+msgstr "Notificações"
+
+#: class-awp-main.php:152
+msgid "Wawp"
+msgstr "Uau"
+
+#: class-awp-main.php:165
+msgid "WhatsApp Notifications"
+msgstr "Notificações de WhatsApp"
+
+#: class-awp-main.php:166
+msgid "Wa Notifications"
+msgstr "Notificações Wa"
+
+#: class-awp-main.php:174
+msgid "Login & Signup OTP"
+msgstr "OTP de login e inscrição"
+
+#: class-awp-main.php:175
+msgid "OTP Logins"
+msgstr "OTP Logins"
+
+#: class-awp-main.php:190 class-awp-main.php:191
+msgid "Notification Logs"
+msgstr "Logs de notificação"
+
+#: class-awp-main.php:201 class-awp-main.php:202 class-awp-system-info.php:39
+#: class-awp-system-info.php:40
+msgid "System Status"
+msgstr "Status do Sistema"
+
+#: class-awp-main.php:214 class-awp-main.php:287
+#, php-format
+msgid "Resend Message %s"
+msgstr "Reenviar mensagem %s"
+
+#: class-awp-main.php:263
+msgid "All changes have been saved!"
+msgstr "Todas as alterações foram salvas!"
+
+#: class-awp-main.php:272
+msgid "Message logs have been cleared!"
+msgstr "Os registros de mensagens foram limpos!"
+
+#: class-awp-main.php:304
+#, php-format
+msgid "Send Message %s"
+msgstr "Enviar Mensagem %s"
+
+#: class-awp-main.php:452 class-awp-main.php:467
+msgid "Receive"
+msgstr "Receber"
+
+#: class-awp-main.php:501 class-awp-main.php:516
+msgid "Pending"
+msgstr "Pendente"
+
+#: class-awp-main.php:550 class-awp-main.php:567
+msgid "Processing"
+msgstr "Processando"
+
+#: class-awp-main.php:605 class-awp-main.php:620
+msgid "Completed"
+msgstr "Concluído"
+
+#: class-awp-main.php:658 class-awp-main.php:673
+msgid "Failed"
+msgstr "Falhou"
+
+#: class-awp-main.php:711 class-awp-main.php:726
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: class-awp-main.php:764 class-awp-main.php:779
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: class-awp-main.php:1786
+msgid "Every 6 hours"
+msgstr "A cada 6 horas"
+
+#: class-awp-main.php:1790
+msgid "Every 30 minutes"
+msgstr "A cada 30 minutos"
+
+#: class-awp-main.php:1846
+msgid "Phone"
+msgstr "Telefone"
+
+#: class-awp-mainset.php:48
+msgid "Connection Status"
+msgstr "Status da conexão"
+
+#: class-awp-mainset.php:49
+msgid "Message delivery statuses"
+msgstr "Status de entrega de mensagens"
+
+#: class-awp-mainset.php:50
+msgid "Test in progress.."
+msgstr "Teste em andamento.."
+
+#: class-awp-mainset.php:51
+msgid "Phone Status: Online"
+msgstr "Status do telefone: Online"
+
+#: class-awp-mainset.php:52
+msgid "Phone Status: Offline"
+msgstr "Status do telefone: Offline"
+
+#: class-awp-mainset.php:53
+msgid "You've sent a test message to (Wawp), check your WhatsApp."
+msgstr "Você enviou uma mensagem de teste para (Wawp), verifique seu WhatsApp."
+
+#: class-awp-mainset.php:54
+msgid "Access token does not exist"
+msgstr "O token de acesso não existe"
+
+#: class-awp-mainset.php:55
+msgid "Instance ID Invalidated"
+msgstr "ID da instância invalidada"
+
+#: class-awp-mainset.php:56
+msgid "Generate QR Code"
+msgstr "Gerar código QR"
+
+#: class-awp-mainset.php:57
+msgid "Error"
+msgstr "Erro"
+
+#: class-awp-mainset.php:92
+msgid "How to connect your WhatsApp:"
+msgstr "Como conectar seu WhatsApp:"
+
+#: class-awp-mainset.php:94
+msgid "Create a free account at"
+msgstr "Crie uma conta gratuita em"
+
+#: class-awp-mainset.php:95
+msgid "Link your WhatsApp using a QR code."
+msgstr "Vincule seu WhatsApp usando um código QR."
+
+#: class-awp-mainset.php:96
+msgid "Copy and paste instance id and access token."
+msgstr "Copie e cole o ID da instância e o token de acesso."
+
+#: class-awp-mainset.php:97
+msgid "Click \"Save\", then perform a connection test."
+msgstr "Clique em \"Salvar\" e execute um teste de conexão."
+
+#: class-awp-mainset.php:99
+msgid "Create free account"
+msgstr "Criar conta grátis"
+
+#: class-awp-mainset.php:100
+msgid "Note:"
+msgstr "Nota:"
+
+#: class-awp-mainset.php:100
+msgid "You can link the same number for notifications and OTP."
+msgstr "Você pode vincular o mesmo número para notificações e OTP."
+
+#: class-awp-mainset.php:104 class-awp-ui.php:1780
+msgid "Notifications number"
+msgstr "Número de notificações"
+
+#: class-awp-mainset.php:105
+msgid ""
+"Connect your WhatsApp number to send order updates, follow-up messages, and "
+"abandoned cart notifications."
+msgstr ""
+"Conecte seu número do WhatsApp para enviar atualizações de pedidos, "
+"mensagens de acompanhamento e notificações de carrinho abandonado."
+
+#: class-awp-mainset.php:122 class-awp-mainset.php:164
+msgid "Save"
+msgstr "Salvar"
+
+#: class-awp-mainset.php:127 class-awp-mainset.php:169 class-awp-ui.php:1801
+#: class-awp-ui.php:1809
+msgid "Connection status"
+msgstr "Status da conexão"
+
+#: class-awp-mainset.php:128 class-awp-mainset.php:170 class-awp-ui.php:1803
+#: class-awp-ui.php:1811
+msgid "Connection test"
+msgstr "Teste de conexão"
+
+#: class-awp-mainset.php:134
+msgid "OTP number"
+msgstr "Número OTP"
+
+#: class-awp-mainset.php:135
+msgid ""
+"Connect your WhatsApp number to send a One-Time Password (OTP) for login, "
+"register and checkout verification."
+msgstr ""
+"Conecte seu número do WhatsApp para enviar uma senha de uso único (OTP) para "
+"login, registro e verificação de checkout."
+
+#: class-awp-mainset.php:154
+msgid "Enable OTP login"
+msgstr "Ativar login OTP"
+
+#: class-awp-mainset.php:160
+msgid "Enable signup verification"
+msgstr "Ativar verificação de inscrição"
+
+#: class-awp-mainset.php:179
+msgid "Wawp testing"
+msgstr "Teste Wawp"
+
+#: class-awp-mainset.php:186
+msgid "Done"
+msgstr "Feito"
+
+#: class-awp-system-info.php:77
+msgid ""
+"It is recommended to meet the system requirements for the best experience "
+"with the Wawp plugin. Regularly check for system updates and update it till "
+"the requirement configurations. The red warning sign in the Your System "
+"column means that the system does not meet the requirements of the Wawp "
+"plugin."
+msgstr ""
+"Recomenda-se atender aos requisitos do sistema para obter a melhor "
+"experiência com o plug-in Wawp. Verifique regularmente se há atualizações do "
+"sistema e atualize-o até as configurações necessárias. O sinal de aviso "
+"vermelho na coluna Seu sistema significa que o sistema não atende aos "
+"requisitos do plug-in Wawp."
+
+#: class-awp-system-info.php:81
+msgid ""
+"For best performance, make sure to deactivate the proxy from CDN services "
+"such as Cloudflare or integrated within the hosting such as the Hostinger "
+"panel."
+msgstr ""
+"Para obter o melhor desempenho, certifique-se de desativar o proxy dos "
+"serviços CDN, como o Cloudflare, ou integrados à hospedagem, como o painel "
+"da Hostinger."
+
+#: class-awp-system-info.php:85
+msgid "WordPress Environment"
+msgstr "Ambiente WordPress"
+
+#: class-awp-system-info.php:89 class-awp-system-info.php:150
+msgid "Requirement"
+msgstr "Requerimento"
+
+#: class-awp-system-info.php:90 class-awp-system-info.php:151
+msgid "Your System"
+msgstr "Seu sistema"
+
+#: class-awp-system-info.php:95
+msgid "Home URL:"
+msgstr "Home URL:"
+
+#: class-awp-system-info.php:99
+msgid "Site URL:"
+msgstr "URL do Site:"
+
+#: class-awp-system-info.php:103
+msgid "WP Version:"
+msgstr "Versão do WP:"
+
+#: class-awp-system-info.php:107
+msgid "WP Multisite:"
+msgstr "WP Multisite:"
+
+#: class-awp-system-info.php:111
+msgid "WP Debug:"
+msgstr "Depuração WP:"
+
+#: class-awp-system-info.php:115
+msgid "System Language:"
+msgstr "Idioma do sistema:"
+
+#: class-awp-system-info.php:116
+msgid "text direction:"
+msgstr "Direção do texto:"
+
+#: class-awp-system-info.php:119
+msgid "Your Language:"
+msgstr "Seu idioma:"
+
+#: class-awp-system-info.php:123
+msgid "WooCommerce:"
+msgstr "WooCommerce:"
+
+#: class-awp-system-info.php:124 class-awp-system-info.php:230
+#: class-awp-system-info.php:231 class-awp-system-info.php:232
+#: class-awp-system-info.php:241 class-awp-system-info.php:242
+#: class-awp-system-info.php:247
+msgid "Enabled"
+msgstr "Ativado"
+
+#: class-awp-system-info.php:124 class-awp-system-info.php:230
+#: class-awp-system-info.php:231 class-awp-system-info.php:232
+#: class-awp-system-info.php:241 class-awp-system-info.php:242
+#: class-awp-system-info.php:247
+msgid "Disabled"
+msgstr "Desativado"
+
+#: class-awp-system-info.php:127
+msgid "Uploads folder writable:"
+msgstr "Pasta de uploads gravável:"
+
+#: class-awp-system-info.php:131
+msgid ".htaccess File Access:"
+msgstr "Acesso ao arquivo .htaccess:"
+
+#: class-awp-system-info.php:135
+msgid "Wawp Plugin Version:"
+msgstr "Versão do plug-in Wawp:"
+
+#: class-awp-system-info.php:139
+msgid "Last Update Date:"
+msgstr "Data da última atualização:"
+
+#: class-awp-system-info.php:146
+msgid "Server Environment"
+msgstr "Ambiente do Servidor"
+
+#: class-awp-system-info.php:156
+msgid "MySQL Version:"
+msgstr "Versão do MySQL:"
+
+#: class-awp-system-info.php:156
+msgid "5.6+"
+msgstr "5.6+"
+
+#: class-awp-system-info.php:160
+msgid "PHP Version:"
+msgstr "Versão do PHP:"
+
+#: class-awp-system-info.php:160
+msgid "7.4+"
+msgstr "7.4+"
+
+#: class-awp-system-info.php:164
+msgid "PHP Post Max Size:"
+msgstr "Tamanho Máximo de Post PHP:"
+
+#: class-awp-system-info.php:164 class-awp-system-info.php:180
+msgid "2 MB+"
+msgstr "2 MB+"
+
+#: class-awp-system-info.php:168
+msgid "PHP Memory Limit:"
+msgstr "Limite de Memória do PHP:"
+
+#: class-awp-system-info.php:168
+msgid "1024 MB+"
+msgstr "1024 MB+"
+
+#: class-awp-system-info.php:172
+msgid "PHP Time Limit:"
+msgstr "Tempo Limite PHP:"
+
+#: class-awp-system-info.php:172
+msgid "300+"
+msgstr "300+"
+
+#: class-awp-system-info.php:176
+msgid "PHP Max Input Vars:"
+msgstr "PHP Max Input Vars:"
+
+#: class-awp-system-info.php:176
+msgid "2500+"
+msgstr "2500+"
+
+#: class-awp-system-info.php:180
+msgid "Max Upload Size:"
+msgstr "Tamanho máximo de upload:"
+
+#: class-awp-system-info.php:184
+msgid "ZipArchive:"
+msgstr "ZipArchive:"
+
+#: class-awp-system-info.php:184 class-awp-system-info.php:188
+msgid "enabled"
+msgstr "ativado"
+
+#: class-awp-system-info.php:188
+msgid "WP Remote Get:"
+msgstr "Obter WP Remoto:"
+
+#: class-awp-system-info.php:195
+msgid ""
+"php.ini values are shown above. Real values may vary, please check your "
+"limits using"
+msgstr ""
+"os valores de php.ini são exibidos acima. Os valores reais podem variar, "
+"verifique seus limites usando"
+
+#: class-awp-system-info.php:212 class-awp-system-info.php:216
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: class-awp-system-info.php:233
+msgid "Writable"
+msgstr "Gravável"
+
+#: class-awp-system-info.php:233
+msgid "Not Writable"
+msgstr "Não Gravável"
+
+#: class-awp-system-info.php:234
+msgid "Found"
+msgstr "Encontrado"
+
+#: class-awp-system-info.php:234
+msgid "Not Found"
+msgstr "Não encontrado"
+
+#: class-awp-system-info.php:238
+msgid "Available"
+msgstr "Disponível"
+
+#: class-awp-system-info.php:238
+msgid "Not Available"
+msgstr "Não Disponível"
+
+#: class-awp-system-info.php:387
+msgid "Every 15 Days"
+msgstr "A Cada 15 Dias"
+
+#: class-awp-ui.php:26
+msgid "Customer notifications"
+msgstr "Notificações do cliente"
+
+#: class-awp-ui.php:28
+msgid "Admin notifications"
+msgstr "Notificações do administrador"
+
+#: class-awp-ui.php:31
+msgid "Follow up"
+msgstr "Acompanhamento da solicitação"
+
+#: class-awp-ui.php:33
+msgid "Abandoned cart"
+msgstr "Carrinho abandonado"
+
+#: class-awp-ui.php:35
+msgid "Quick message"
+msgstr "Mensagem rápida"
+
+#: class-awp-ui.php:107
+msgid ""
+"Send real-time WhatsApp messages to your customers based on order status "
+"changes or new order creations."
+msgstr ""
+"Envie mensagens do WhatsApp em tempo real para seus clientes com base nas "
+"alterações de status do pedido ou na criação de novos pedidos."
+
+#: class-awp-ui.php:108 class-awp-ui.php:859 class-awp-ui.php:893
+#: class-awp-ui.php:1239 class-awp-ui.php:1250 class-awp-ui.php:1600
+#: class-awp-ui.php:1616 class-awp-ui.php:1707
+msgid "Save Changes"
+msgstr "Salvar Alterações"
+
+#: class-awp-ui.php:116
+msgid "Default Country Code:"
+msgstr "Código de País Padrão:"
+
+#: class-awp-ui.php:118
+msgid "Add your country code without any 00 or + ex: 2 for EG or 966 for SA  "
+msgstr ""
+"Adicione o código do seu país sem nenhum 00 ou + ex: 2 para EG ou 966 para "
+"SA  "
+
+#: class-awp-ui.php:123
+msgid "Your country code"
+msgstr "Código do seu país"
+
+#: class-awp-ui.php:126
+msgid ""
+"Insert country code only if your customer is from a single country. This "
+"will remove the country detection library on the old checkout page. Leave "
+"blank if your customer is from many countries."
+msgstr ""
+"Insira o código do país somente se o cliente for de um único país. Isso "
+"removerá a biblioteca de detecção de país na página de checkout antiga. "
+"Deixe em branco se o seu cliente for de muitos países."
+
+#: class-awp-ui.php:133
+msgid "Customer language:"
+msgstr "Idioma do cliente:"
+
+#: class-awp-ui.php:134
+msgid "Default"
+msgstr "Padrão"
+
+#: class-awp-ui.php:135
+msgid "Arabic"
+msgstr "Árabe"
+
+#: class-awp-ui.php:142 class-awp-ui.php:921 class-awp-ui.php:1256
+#: class-awp-ui.php:1644 class-awp-ui.php:1736
+msgid "Accepts .png, .jpg, .jpeg"
+msgstr "Aceita .png, .jpg, .jpeg"
+
+#: class-awp-ui.php:143 class-awp-ui.php:922 class-awp-ui.php:1257
+#: class-awp-ui.php:1645 class-awp-ui.php:1737
+msgid "Upload image"
+msgstr "Enviar imagem"
+
+#: class-awp-ui.php:149
+msgid "Order status notifications"
+msgstr "Notificações de status do pedido"
+
+#: class-awp-ui.php:151
+msgid ""
+"Automatically send notification messages based on the primary language of "
+"the user’s WordPress account, including English, French, Italian, German, "
+"Spanish, Hindi, or any LTR language."
+msgstr ""
+"Envie mensagens de notificação automaticamente com base no idioma principal "
+"da conta WordPress do usuário, incluindo inglês, francês, italiano, alemão, "
+"espanhol, hindi ou qualquer idioma LTR."
+
+#: class-awp-ui.php:158 class-awp-ui.php:934
+msgid "User Registration"
+msgstr "Registro de usuário"
+
+#: class-awp-ui.php:159
+msgid "Sent when a user registers on WordPress."
+msgstr "Enviado quando um usuário se registra no WordPress."
+
+#: class-awp-ui.php:190 class-awp-ui.php:965
+msgid "User Login"
+msgstr "Login de usuário"
+
+#: class-awp-ui.php:191
+msgid "Sent when a user logs in to WordPress."
+msgstr "Enviado quando um usuário faz login no WordPress."
+
+#: class-awp-ui.php:221
+msgid "Order On-Hold"
+msgstr "Pedido em espera"
+
+#: class-awp-ui.php:222
+msgid "Sent when an order is placed on hold."
+msgstr "Enviado quando um pedido é colocado em espera."
+
+#: class-awp-ui.php:251
+msgid "Order Pending Payment"
+msgstr "Pedido Pagamento pendente"
+
+#: class-awp-ui.php:252
+msgid "Sent when an order is pending payment."
+msgstr "Enviado quando um pedido está pendente de pagamento."
+
+#: class-awp-ui.php:281
+msgid "Order Processing"
+msgstr "Processamento de pedido"
+
+#: class-awp-ui.php:282
+msgid "Sent when an order is being processed."
+msgstr "Enviado quando um pedido está sendo processado."
+
+#: class-awp-ui.php:311
+msgid "Order Completed"
+msgstr "Pedido Concluído"
+
+#: class-awp-ui.php:312
+msgid "Sent when an order is completed."
+msgstr "Enviado quando um pedido é concluído."
+
+#: class-awp-ui.php:341
+msgid "Order Failed"
+msgstr "Falha no Pedido"
+
+#: class-awp-ui.php:342
+msgid "Sent when an order fails."
+msgstr "Enviado quando um pedido falha."
+
+#: class-awp-ui.php:371
+msgid "Order Refunded"
+msgstr "Encomenda reembolsada"
+
+#: class-awp-ui.php:372
+msgid "Sent when an order is refunded."
+msgstr "Enviado quando um pedido é reembolsado."
+
+#: class-awp-ui.php:401
+msgid "Order Cancelled"
+msgstr "Pedido Cancelado"
+
+#: class-awp-ui.php:402
+msgid "Sent when an order is cancelled."
+msgstr "Enviado quando um pedido é cancelado."
+
+#: class-awp-ui.php:431
+msgid "Order Note"
+msgstr "Nota do Pedido"
+
+#: class-awp-ui.php:432
+msgid "Sent when an order note is added."
+msgstr "Enviado quando uma nota de pedido é adicionada."
+
+#: class-awp-ui.php:465
+#, php-format
+msgid "Order - %s:"
+msgstr "Ordem - %s:"
+
+#: class-awp-ui.php:482 class-awp-ui.php:1225
+msgid "Write your message here.."
+msgstr "Escreva sua mensagem aqui.."
+
+#: class-awp-ui.php:484 class-awp-ui.php:1227 class-awp-ui.php:1340
+#: class-awp-ui.php:1378 class-awp-ui.php:1416 class-awp-ui.php:1462
+#: class-awp-ui.php:1501 class-awp-ui.php:1540 class-awp-ui.php:1580
+#: class-awp-ui.php:1680
+msgid "Image URL (Max 1 MB)..."
+msgstr "URL da imagem (máx. 1 MB)..."
+
+#: class-awp-ui.php:485 class-awp-ui.php:925 class-awp-ui.php:1228
+#: class-awp-ui.php:1341 class-awp-ui.php:1379 class-awp-ui.php:1417
+#: class-awp-ui.php:1463 class-awp-ui.php:1502 class-awp-ui.php:1541
+#: class-awp-ui.php:1581 class-awp-ui.php:1681
+msgid "Upload Image"
+msgstr "Enviar Imagem"
+
+#: class-awp-ui.php:503
+msgid "اكتب رسالتك باللغة العربية هنا..."
+msgstr "اكتب رسالتك باللغة العربية هنا..."
+
+#: class-awp-ui.php:504
+msgid "الصيغ المتاحة .png, .jpg, .jpeg"
+msgstr "الصيغ المتاحة .png, .jpg, .jpeg"
+
+#: class-awp-ui.php:505 class-awp-ui.php:846
+msgid "رفع الصورة"
+msgstr "رفع الصورة"
+
+#: class-awp-ui.php:511
+msgid "اشعارات حالة الطلب باللغة العربية"
+msgstr "اشعارات حالة الطلب باللغة العربية"
+
+#: class-awp-ui.php:512
+msgid ""
+"إرسل اشعارات حالة الطلب باللغة العربية تلقائياً، تعمل فقط في حالة اذا كانت "
+"اللغة العربية هي لغة الموقع الرئيسية أو اذا كانت لغة اضافية بموقع متعدد "
+"اللغات."
+msgstr ""
+"إرسل اشعارات حالة الطلب باللغة العربية تلقائياً، تعمل فقط في حالة اذا كانت "
+"اللغة العربية هي لغة الموقع الرئيسية أو اذا كانت لغة اضافية بموقع متعدد "
+"اللغات."
+
+#: class-awp-ui.php:520
+msgid "إشعار التسجيل"
+msgstr "إشعار التسجيل"
+
+#: class-awp-ui.php:521
+msgid "يتم إرساله عند تسجيل المستخدم في WordPress."
+msgstr "Baixe o WordPress."
+
+#: class-awp-ui.php:551
+msgid "إشعار تسجيل الدخول"
+msgstr "إشعار تسجيل الدخول"
+
+#: class-awp-ui.php:552
+msgid "إرسال عند تسجيل دخول المستخدم إلى ووردبريس."
+msgstr "إرسال عند تسجيل دخول المستخدم إلى ووردبريس."
+
+#: class-awp-ui.php:582
+msgid "قيد الانتظار"
+msgstr "قيد الانتظار"
+
+#: class-awp-ui.php:583
+msgid "يتم إرساله عند وضع الطلب في الانتظار."
+msgstr "يتم إرساله عند وضع الطلب في الانتظار."
+
+#: class-awp-ui.php:612
+msgid "بانتظار الدفع"
+msgstr "بانتظار الدفع"
+
+#: class-awp-ui.php:613
+msgid "يرسل عند تعليق الدفع."
+msgstr "يرسل عند تعليق الدفع."
+
+#: class-awp-ui.php:642
+msgid "قيد التنفيذ"
+msgstr "قيد التنفيذ"
+
+#: class-awp-ui.php:643
+msgid "يرسل عندما يكون الطلب قيد المعالجة."
+msgstr "يرسل عندما يكون الطلب قيد المعالجة."
+
+#: class-awp-ui.php:672
+msgid "الطلب مكتمل"
+msgstr "الطلب مكتمل"
+
+#: class-awp-ui.php:673
+msgid "يرسل عند اكتمال الطلب."
+msgstr "يرسل عند اكتمال الطلب."
+
+#: class-awp-ui.php:702
+msgid "فشل الطلب"
+msgstr "فشل الطلب"
+
+#: class-awp-ui.php:703
+msgid "يرسل عند فشل الطلب."
+msgstr "يرسل عند فشل الطلب."
+
+#: class-awp-ui.php:732
+msgid "ارجاع الطلب"
+msgstr "ارجاع الطلب"
+
+#: class-awp-ui.php:733
+msgid "يرسل عند استرداد الطلب."
+msgstr "يرسل عند استرداد الطلب."
+
+#: class-awp-ui.php:762
+msgid "الغاء الطلب"
+msgstr "الغاء الطلب"
+
+#: class-awp-ui.php:763
+msgid "يرسل عند إلغاء الطلب."
+msgstr "يرسل عند إلغاء الطلب."
+
+#: class-awp-ui.php:792
+msgid "ملاحظات الطلب"
+msgstr "ملاحظات الطلب"
+
+#: class-awp-ui.php:793
+msgid "يرسل عند إضافة ملاحظة إلى الطلب."
+msgstr "يرسل عند إضافة ملاحظة إلى الطلب."
+
+#: class-awp-ui.php:825
+#, php-format
+msgid "طلب - %s:"
+msgstr "طلب - %s:"
+
+#: class-awp-ui.php:843
+msgid "اكتب رسالتك هنا.."
+msgstr "اكتب رسالتك هنا.."
+
+#: class-awp-ui.php:845
+msgid "رابط الصورة (بحد أقصى 1 ميجابايت)..."
+msgstr "رابط الصورة (بحد أقصى 1 ميجابايت)..."
+
+#: class-awp-ui.php:892
+msgid ""
+"Receive WhatsApp messages about new orders or order status updates to stay "
+"informed in real-time."
+msgstr ""
+"Receba mensagens do WhatsApp sobre novos pedidos ou atualizações de status "
+"de pedidos para se manter informado em tempo real."
+
+#: class-awp-ui.php:901
+msgid "Admin order notifications"
+msgstr "Notificações de pedidos de administração"
+
+#: class-awp-ui.php:902
+msgid "Stay updated by receiving customer orders directly on your WhatsApp."
+msgstr ""
+"Fique atualizado recebendo pedidos de clientes diretamente no seu WhatsApp."
+
+#: class-awp-ui.php:906
+msgid "Your Whatsapp number:"
+msgstr "Seu número de Whatsapp:"
+
+#: class-awp-ui.php:910
+msgid "010 01234567"
+msgstr "010 01234567"
+
+#: class-awp-ui.php:923
+msgid "Enter the admin notification message..."
+msgstr "Digite a mensagem de notificação do administrador..."
+
+#: class-awp-ui.php:924
+msgid "Image URL (optional)"
+msgstr "URL da imagem: (opcional)"
+
+#: class-awp-ui.php:935
+msgid "Sent to admin when a user registers on WordPress."
+msgstr "Enviado ao administrador quando um usuário se registra no WordPress."
+
+#: class-awp-ui.php:966
+msgid "Sent to admin when a user logs in to WordPress."
+msgstr "Enviado ao administrador quando um usuário faz login no WordPress."
+
+#: class-awp-ui.php:996
+msgid "Admin On-Hold"
+msgstr "Administrador em espera"
+
+#: class-awp-ui.php:997
+msgid "Sent to the admin when an order is placed on hold."
+msgstr "Enviado ao administrador quando um pedido é colocado em espera."
+
+#: class-awp-ui.php:1026
+msgid "Admin Pending Payment"
+msgstr "Admin Pagamento Pendente"
+
+#: class-awp-ui.php:1027
+msgid "Sent to admin when an order is pending payment."
+msgstr "Enviado ao administrador quando um pedido está pendente de pagamento."
+
+#: class-awp-ui.php:1056
+msgid "Admin Order Processing"
+msgstr "Processamento de pedidos de administrador"
+
+#: class-awp-ui.php:1057
+msgid "Sent to admin when an order is being processed."
+msgstr "Enviado ao administrador quando um pedido está sendo processado."
+
+#: class-awp-ui.php:1086
+msgid "Admin Completed Order"
+msgstr "Pedido concluído pelo administrador"
+
+#: class-awp-ui.php:1087
+msgid "Sent to admin when an order is completed."
+msgstr "Enviado ao administrador quando um pedido é concluído."
+
+#: class-awp-ui.php:1116
+msgid "Admin Order Failed"
+msgstr "Falha na ordem do administrador"
+
+#: class-awp-ui.php:1117
+msgid "Sent to admin when an order fails."
+msgstr "Enviado ao administrador quando um pedido falha."
+
+#: class-awp-ui.php:1146
+msgid "Admin Refunded Order"
+msgstr "Pedido reembolsado pelo administrador"
+
+#: class-awp-ui.php:1147
+msgid "Sent to admin when an order is refunded."
+msgstr "Enviado ao administrador quando um pedido é reembolsado."
+
+#: class-awp-ui.php:1176
+msgid "Admin Order Cancelled"
+msgstr "Pedido de administrador cancelado"
+
+#: class-awp-ui.php:1177
+msgid "Sent to admin when an order is cancelled."
+msgstr "Enviado ao administrador quando um pedido é cancelado."
+
+#: class-awp-ui.php:1208
+#, php-format
+msgid "Admin Order - %s"
+msgstr "Ordem de Administração - %s"
+
+#: class-awp-ui.php:1249
+msgid ""
+"Retarget customers with WhatsApp messages based on their order status and a "
+"timeframe you set."
+msgstr ""
+"Redirecione os clientes com mensagens do WhatsApp com base no status do "
+"pedido e no prazo definido."
+
+#: class-awp-ui.php:1264
+msgid "Order follow up notifications"
+msgstr "Notificações de acompanhamento de pedidos"
+
+#: class-awp-ui.php:1265
+msgid ""
+"Send timely follow-up messages to customers after their orders are placed, "
+"keeping them informed about their order status and encouraging engagement."
+msgstr ""
+"Envie mensagens de acompanhamento oportunas aos clientes após a realização "
+"de seus pedidos, mantendo-os informados sobre o status do pedido e "
+"incentivando o engajamento."
+
+#: class-awp-ui.php:1272
+msgid "On-Hold"
+msgstr "Em espera"
+
+#: class-awp-ui.php:1278
+msgid "#1 - On-hold follow-up"
+msgstr "#1 - Acompanhamento em espera"
+
+#: class-awp-ui.php:1279
+msgid "Remind customers their order is awaiting fulfillment and reassure them."
+msgstr ""
+"Lembre aos clientes que seu pedido está aguardando atendimento e tranquilize-"
+"os."
+
+#: class-awp-ui.php:1305 class-awp-ui.php:1345 class-awp-ui.php:1383
+#: class-awp-ui.php:1421 class-awp-ui.php:1467 class-awp-ui.php:1506
+#: class-awp-ui.php:1545 class-awp-ui.php:1585 class-awp-ui.php:1685
+msgid "Send message after:"
+msgstr "Enviar mensagem após:"
+
+#: class-awp-ui.php:1308 class-awp-ui.php:1688
+msgid "24"
+msgstr "24"
+
+#: class-awp-ui.php:1320
+msgid "#2 - On-hold follow-up"
+msgstr "#2 - Acompanhamento em espera"
+
+#: class-awp-ui.php:1321
+msgid ""
+"Remind customers their order is still awaiting fulfillment and reassure them "
+"again."
+msgstr ""
+"Lembre aos clientes que seu pedido ainda está aguardando atendimento e "
+"tranquilize-os novamente."
+
+#: class-awp-ui.php:1338 class-awp-ui.php:1376 class-awp-ui.php:1414
+msgid "Write your follow-up message here.."
+msgstr "Escreva sua mensagem de acompanhamento aqui.."
+
+#: class-awp-ui.php:1348 class-awp-ui.php:1470
+msgid "48"
+msgstr "48"
+
+#: class-awp-ui.php:1358
+msgid "#3 - On-hold follow-up"
+msgstr "#3 - Acompanhamento em espera"
+
+#: class-awp-ui.php:1359
+msgid "Remind customers their order is still on hold."
+msgstr "Lembre aos clientes que seu pedido ainda está em espera."
+
+#: class-awp-ui.php:1386 class-awp-ui.php:1509
+msgid "72"
+msgstr "72"
+
+#: class-awp-ui.php:1396
+msgid "#4 - On-hold follow-up"
+msgstr "#4 - Acompanhamento em espera"
+
+#: class-awp-ui.php:1397
+msgid "Remind customers their order is still on hold after 96 hours."
+msgstr "Lembre aos clientes que seu pedido ainda está em espera após 96 horas."
+
+#: class-awp-ui.php:1424 class-awp-ui.php:1548
+msgid "96"
+msgstr "96"
+
+#: class-awp-ui.php:1436
+msgid "Post Purchase"
+msgstr "Compra de Artigo"
+
+#: class-awp-ui.php:1442
+msgid "Aftersales Follow-up"
+msgstr "Acompanhamento Pós-Venda"
+
+#: class-awp-ui.php:1443
+msgid "Send a follow-up message to customers after their order is completed."
+msgstr ""
+"Envie uma mensagem de acompanhamento aos clientes após a conclusão do pedido."
+
+#: class-awp-ui.php:1460 class-awp-ui.php:1499 class-awp-ui.php:1538
+#: class-awp-ui.php:1578
+msgid "Write your aftersales message here.."
+msgstr "Escreva sua mensagem pós-venda aqui.."
+
+#: class-awp-ui.php:1481
+msgid "Aftersales Follow-up 2"
+msgstr "Acompanhamento Pós-Venda 2"
+
+#: class-awp-ui.php:1482
+msgid ""
+"Send a second follow-up message to customers after their order is completed."
+msgstr ""
+"Envie uma segunda mensagem de acompanhamento aos clientes após a conclusão "
+"do pedido."
+
+#: class-awp-ui.php:1520
+msgid "Aftersales Follow-up 3"
+msgstr "Acompanhamento Pós-Venda 3"
+
+#: class-awp-ui.php:1521
+msgid ""
+"Send a third follow-up message to customers after their order is completed."
+msgstr ""
+"Envie uma terceira mensagem de acompanhamento aos clientes após a conclusão "
+"do pedido."
+
+#: class-awp-ui.php:1560
+msgid "Aftersales Follow-up 4"
+msgstr "Acompanhamento Pós-Venda 4"
+
+#: class-awp-ui.php:1561
+msgid ""
+"Send a fourth follow-up message to customers after their order is completed."
+msgstr ""
+"Envie uma quarta mensagem de acompanhamento aos clientes após a conclusão do "
+"pedido."
+
+#: class-awp-ui.php:1588
+msgid "120"
+msgstr "120"
+
+#: class-awp-ui.php:1612
+msgid ""
+"Target visitors who abandoned their shopping carts after entering their "
+"details but did not complete the purchase."
+msgstr ""
+"Segmente visitantes que abandonaram seus carrinhos de compras depois de "
+"inserir seus dados, mas não concluíram a compra."
+
+#: class-awp-ui.php:1629
+#, php-format
+msgid ""
+"<div class=\"hint-head\"><span>Enable Abandoned Cart Notifications</span></"
+"div><div class=\"hint-info\"><p class=\"desc\">Install the "
+"<strong>Cartbounty plugin</strong> to activate notifications for abandoned "
+"carts.</p><a href=\"%s\" class=\"banner-cta\">Install Cartbounty</a></div>"
+msgstr ""
+"<div class=\"hint-head\"><span>Ativar notificações de carrinho abandonado</"
+"span></div><div class=\"hint-info\"><p class=\"desc\">Instale o <strong>plug-"
+"in Cartbounty</strong> para ativar notificações de carrinhos abandonados.</"
+"p><a href=\"%s\" class=\"banner-cta\">Instale o Cartbounty</a></div>"
+
+#: class-awp-ui.php:1652
+msgid "Abandoned cart notifications"
+msgstr "Notificações de carrinho abandonado"
+
+#: class-awp-ui.php:1653
+msgid ""
+"Remind customers about the items left in their cart and encourage them to "
+"complete their purchase with personalized WhatsApp messages."
+msgstr ""
+"Lembre os clientes sobre os itens deixados no carrinho e incentive-os a "
+"concluir a compra com mensagens personalizadas do WhatsApp."
+
+#: class-awp-ui.php:1660
+msgid "Abandoned Cart Follow-up"
+msgstr "Acompanhamento de carrinho abandonado"
+
+#: class-awp-ui.php:1661
+msgid "Send a follow-up message to customers who have abandoned their cart."
+msgstr ""
+"Envie uma mensagem de acompanhamento aos clientes que abandonaram o carrinho."
+
+#: class-awp-ui.php:1678
+msgid "Write your abandoned cart message here.."
+msgstr "Escreva sua mensagem de carrinho abandonado aqui.."
+
+#: class-awp-ui.php:1728
+msgid "Send messages to any WhatsApp number from this section."
+msgstr "Envie mensagens para qualquer número do WhatsApp a partir desta seção."
+
+#: class-awp-ui.php:1746
+msgid "Send WhatsApp message to:"
+msgstr "Envie mensagem do WhatsApp para:"
+
+#: class-awp-ui.php:1747
+msgid ""
+"You can send a WhatsApp message to an individual customer directly from here."
+msgstr ""
+"Você pode enviar uma mensagem do WhatsApp para um cliente individual "
+"diretamente daqui."
+
+#: class-awp-ui.php:1763
+msgid "Send Message"
+msgstr "Enviar Mensagem"
+
+#: class-awp-ui.php:1782
+msgid "WhatsApp number for order updates. Learn "
+msgstr "Número do WhatsApp para atualizações de pedidos. Aprender "
+
+#: class-awp-ui.php:1783
+msgid "how to connect."
+msgstr "como se conectar."
+
+#: class-awp-ui.php:1790
+msgid "Access token"
+msgstr "Token de Acesso"
+
+#: class-awp-ui.php:1794
+msgid "Connect"
+msgstr "Conectar"
+
+#: class-awp-ui.php:1799
+msgid "Instance Control"
+msgstr "Controle de instância"
+
+#: class-awp-ui.php:1807
+msgid "Control Description"
+msgstr "Descrição do controle"
+
+#: class-awp-ui.php:1809
+msgid ""
+"A connection test is performed between the WhatsApp number and the Wawp "
+"system to inform you of the result whether it is connected or not"
+msgstr ""
+"Um teste de conexão é realizado entre o número do WhatsApp e o sistema Wawp "
+"para informar o resultado, esteja ele conectado ou não"
+
+#: class-awp-ui.php:1811
+msgid ""
+"A WhatsApp message is sent from your number registered with Wawp and added "
+"to the WordPress plugin settings (account ID and access Token) to the Wawp "
+"Bot number to verify that the plugin is active and notifications are sent "
+"normally."
+msgstr ""
+"Uma mensagem do WhatsApp é enviada do seu número cadastrado no Wawp e "
+"adicionada às configurações do plugin do WordPress (ID da conta e token de "
+"acesso) para o número do Wawp Bot para verificar se o plugin está ativo e as "
+"notificações são enviadas normalmente."
+
+#: class-awp-ui.php:1838
+msgid "Logs cleared successfully."
+msgstr "Logs limpos com êxito."
+
+#: class-awp-ui.php:1848
+msgid "To view your wawp log, please browse from your computer."
+msgstr "Para visualizar seu log wawp, navegue em seu computador."
+
+#: class-awp-ui.php:1853
+msgid ""
+"Wawp Log only counts notification messages, we'll release a new update to "
+"count login and checkout confirmation messages."
+msgstr ""
+"Wawp Log conta apenas mensagens de notificação, lançaremos uma nova "
+"atualização para contar mensagens de confirmação de login e checkout."
+
+#: class-awp-ui.php:1857
+msgid "Search in log:"
+msgstr "Pesquisar no log:"
+
+#: class-awp-ui.php:1859
+msgid "Type to search...Date/WhatsApp Number/Message/Image Attachment/Status"
+msgstr ""
+"Digite para pesquisar... Data/Número do WhatsApp/Mensagem/Anexo de Imagem/"
+"Status"
+
+#: class-awp-ui.php:1860
+msgid "Clear Logs"
+msgstr "Limpar registros"
+
+#: class-awp-ui.php:1867
+msgid "Date"
+msgstr "Data"
+
+#: class-awp-ui.php:1868
+msgid "WhatsApp Number"
+msgstr "Número do WhatsApp"
+
+#: class-awp-ui.php:1869
+msgid "Message"
+msgstr "Mensagem"
+
+#: class-awp-ui.php:1870
+msgid "Image Attachment"
+msgstr "Amostra Anexada"
+
+#: class-awp-ui.php:1871
+msgid "Plugin status"
+msgstr "Status do plug-in"
+
+#: class-awp-ui.php:1872
+msgid "wawp.net status"
+msgstr "wawp.net status"
+
+#: class-awp-ui.php:1873
+msgid "Resend"
+msgstr "Reenviar"
+
+#: class-awp.php:66
+msgid ""
+"Wawp - Instant Order Notifications & OTP Verification for WooCommerce "
+"requires WooCommerce to be installed and active."
+msgstr ""
+"Wawp - Notificações instantâneas de pedidos e verificação OTP para "
+"WooCommerce requer que o WooCommerce esteja instalado e ativo."
+
+#: class-awp.php:67
+msgid "Install WooCommerce Now"
+msgstr "Instale o WooCommerce agora"
+
+#: class-login.php:79
+msgid "Your Whatsapp number"
+msgstr "Seu número do Whatsapp"
+
+#: class-login.php:88 class-register.php:120
+msgid "Send code via Whatsapp"
+msgstr "Enviar código via Whatsapp"
+
+#: class-login.php:92
+msgid "Enter the code you received"
+msgstr "Digite o código que você recebeu"
+
+#: class-login.php:97 templates/form-login-only.php:44
+msgid "Remember me"
+msgstr "Lembrar-me"
+
+#: class-login.php:103 class-login.php:104
+msgid "Login via Whatsapp"
+msgstr "Login via Whatsapp"
+
+#: class-login.php:106
+msgid "Login via Email & Password"
+msgstr "Faça login por e-mail e senha"
+
+#: class-login.php:107
+msgid "Login via Email"
+msgstr "Login por e-mail"
+
+#: class-login.php:120 class-register.php:151
+msgid "Valid WhatsApp number is required."
+msgstr "É necessário um número válido do WhatsApp."
+
+#: class-login.php:163 class-register.php:175
+msgid "Instance ID or Access Token is missing. Please check your settings."
+msgstr ""
+"A ID da instância ou o token de acesso estão ausentes. Verifique suas "
+"configurações."
+
+#: class-login.php:191 class-register.php:207
+msgid "Failed to send passkey. Please try again or contact administrator."
+msgstr ""
+"Falha ao enviar a chave de acesso. Tente novamente ou entre em contato com o "
+"administrador."
+
+#: class-login.php:197 class-register.php:213
+msgid "Request sent! Check your WhatsApp."
+msgstr "Pedido enviado! Verifique seu WhatsApp."
+
+#: class-login.php:205
+msgid ""
+"This number is not registered on this site. Please try again with a valid "
+"number or register."
+msgstr ""
+"Este número não está registrado neste site. Por favor, tente novamente com "
+"um número válido ou registre-se."
+
+#: class-login.php:220 templates/form-login-only.php:68
+#: templates/form-register-only.php:75
+msgid "Security check failed."
+msgstr "Falha de verificação de segurança."
+
+#: class-login.php:244 class-register.php:344
+msgid "Success!"
+msgstr "Sucesso!"
+
+#: class-login.php:251
+msgid "Something wrong with your login"
+msgstr "Algo errado com seu login"
+
+#: class-login.php:258
+msgid "Mismatch passkey. Try again."
+msgstr "Chave de acesso incompatível. Tentar novamente."
+
+#: class-login.php:302 class-register.php:99
+msgid "Template not found."
+msgstr "Modelo  não encontrado."
+
+#: class-register.php:114
+msgid "Your WhatsApp Number"
+msgstr "Seu número do WhatsApp"
+
+#: class-register.php:123
+msgid "OTP"
+msgstr "OTP"
+
+#: class-register.php:220 class-register.php:296
+msgid "Your WhatsApp number may not be valid. Please recheck."
+msgstr ""
+"Seu número do WhatsApp pode não ser válido. Por favor, verifique novamente."
+
+#: class-register.php:251
+msgid "OTP is missing or invalid."
+msgstr "OTP está ausente ou é inválido."
+
+#: class-register.php:284
+msgid "This email is already registered."
+msgstr "Esse email já foi registrado."
+
+#: class-register.php:288
+msgid "This WhatsApp number is already registered."
+msgstr "Este número do WhatsApp já está cadastrado."
+
+#: class-register.php:292
+msgid "This username is already taken."
+msgstr "Este nome de usuário já existe."
+
+#: class-register.php:300
+msgid "The OTP code is incorrect. Please try again."
+msgstr "O código OTP está incorreto. Por favor, tente novamente."
+
+#: class-register.php:357
+msgid "Email is required."
+msgstr "O e-mail é necessário."
+
+#: class-register.php:360
+msgid "Phone number is required."
+msgstr "Campo Necessário."
+
+#: class-register.php:363
+msgid "OTP code is required."
+msgstr "O código OTP é necessário."
+
+#: class-register.php:366
+msgid "Your session has expired. Please reload the page and try again."
+msgstr "Sua sessão expirou. Por favor, recarregue a página e tente novamente."
+
+#: class-wwo.php:92 class-wwo.php:93
+msgid "Wawp OTP"
+msgstr "Wawp OTP"
+
+#: class-wwo.php:197
+msgid "Upgrade Now to Wawp Pro. Use the code “"
+msgstr "Atualize agora para o Wawp Pro. Use o código \""
+
+#: class-wwo.php:198
+msgid "Wawp50"
+msgstr "Wawp50"
+
+#: class-wwo.php:199
+#, php-format
+msgid "” to get 50% off. "
+msgstr "\" para obter 50% off. "
+
+#: class-wwo.php:200
+msgid "🕒 Limited Time Offer!"
+msgstr "🕒 Oferta por tempo limitado!"
+
+#: class-wwo.php:212
+msgid "Text formatting"
+msgstr "Formatação do texto"
+
+#: class-wwo.php:213
+msgid "Support"
+msgstr "Suporte"
+
+#: class-wwo.php:214
+msgid " Wawp Pro "
+msgstr " Wawp Pro "
+
+#: class-wwo.php:300
+msgid "Made with ♥ by the Wawp Team"
+msgstr "Feito com ♥ pela equipe Wawp"
+
+#: class-wwo.php:318
+#, php-format
+msgid ""
+"Please rate <strong>Wawp</strong> <a href=\"%1$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">★★★★★</a> on <a href=\"%2$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">WordPress.org</a> to help us spread the word."
+msgstr ""
+"Avalie <strong>o Wawp</strong> <a href=\"%1$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">★★★★★</a> no <a href=\"%2$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">WordPress.org</a> para nos ajudar a espalhar a "
+"palavra."
+
+#: templates/form-login-only.php:30
+msgid "Email or username"
+msgstr "E-mail ou Usuário"
+
+#: templates/form-login-only.php:34 templates/form-register-only.php:45
+msgid "Password"
+msgstr "Senha"
+
+#: templates/form-login-only.php:48
+msgid "Lost your password?"
+msgstr "Perdeu sua senha?"
+
+#: templates/form-register-only.php:31
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: templates/form-register-only.php:38
+msgid "Email address"
+msgstr "Endereço de e-mail"
+
+#. Plugin Name of the plugin/theme
+msgid ""
+"Wawp - OTP Verification, Order Notifications, and Country Code Selector for "
+"WooCommerce"
+msgstr ""
+"Wawp - Verificação OTP, notificações de pedidos e seletor de código de país "
+"para WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wawp.net/whatsapp-for-woocommerce/"
+msgstr "https://wawp.net/whatsapp-for-woocommerce/"
+
+#. Description of the plugin/theme
+msgid ""
+"Wawp is the best way to send & receive order updates, recover abandoned "
+"carts, drive repeat sales, and secure your store using OTP – all via "
+"WhatsApp."
+msgstr ""
+"Wawp é a melhor maneira de enviar e receber atualizações de pedidos, "
+"recuperar carrinhos abandonados, gerar vendas repetidas e proteger sua loja "
+"usando OTP – tudo via WhatsApp."
+
+#. Author of the plugin/theme
+msgid "wawp.net"
+msgstr "wawp.net"
+
+#. Author URI of the plugin/theme
+msgid "https://wawp.net"
+msgstr "https://wawp.net"

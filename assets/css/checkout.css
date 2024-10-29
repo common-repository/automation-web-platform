@@ -1,0 +1,290 @@
+/*
+* Checkout popup
+*/
+.awp-otp-popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+}
+.awp-otp-popup-content {
+    pointer-events: auto;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 15%;
+    max-width: 380px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0rem 1.25rem 1.25rem -0.5rem rgba(26,26,26,.28);
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.awp-otp-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    padding-bottom: 0;
+    background: #fff;
+}
+
+.awp-otp-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 12px 24px;
+}
+
+.awp-btn-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+.awp-otp-popup-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.awp-otp-popup-close:hover,
+.awp-otp-popup-close:focus {
+    color: #ea0038;
+    text-decoration: none;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    gap: 8px;
+    box-sizing: border-box;
+}
+
+.otp-input {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 28px;
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+    aspect-ratio: 1;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: inherit;
+    color: #333;
+}
+
+:where(.wp-site-blocks :focus) {
+    outline: none;
+    border: 1px solid #005bd3 !important;
+}
+
+#user_phone_number {
+    color: #00a884;
+    font-weight: 600;
+}
+
+#awp_verify_otp_btn {
+    display: block;
+    cursor: pointer;
+    padding: 8px 24px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+    border-radius: 6px;
+    width: 100%;
+    border: 0;
+    background: #00a884;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#awp_verify_otp_btn:hover {
+    background: #0b7;
+}
+
+#awp_resend_otp_btn {
+    display: block;
+    background-color: transparent;
+    border-width: 0;
+    border-radius: 8px;
+    color: #333;
+    font-family: inherit;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: inherit;
+    padding: 8px;
+    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#awp_resend_otp_btn:hover {
+    color: #1689db;
+    text-decoration: underline;
+}
+
+.awp-title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.awp-desc {
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+#awp_resend_timer {
+    font-size: 14px;
+    font-family: inherit;
+    color: #666;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.awp-otp-error {
+    font-size: 14px;
+    font-family: inherit;
+    color: #ea0038 !important;
+    line-height: 1.6;
+    font-weight: 500;
+    display: none;
+}
+
+input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.awp-powered-by {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 16px;
+    color: #fff;
+    gap: 8px;
+    z-index: 999;
+}
+
+.awp-powered-by a {
+    color: #00bb77;
+    text-decoration: none;
+    display: flex;
+    margin-top: 3px;
+}
+
+.awp-popup-message {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.woocommerce-message.custom-message {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.awp-powered-by a:hover {
+    text-decoration: underline;
+}
+
+/* Media query for tablets and phones */
+@media screen and (max-width: 1024px) {
+    .awp-otp-popup-content {
+        width: 80% !important;
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .awp-otp-popup-content {
+        width: 90% !important;
+        margin-top: 50%;
+    }
+    .otp-inputs {
+        gap: 8px !important;
+    }
+    .otp-input {
+        font-size: 18px !important;
+    }
+    .awp-title {
+        font-size: 20px !important;
+    }
+    .awp-desc {
+        font-size: 14px !important;
+    }
+    #awp_verify_otp_btn, #awp_resend_otp_btn {
+        padding: 0.4rem 0.8rem !important;
+    }
+}
+
+.custom-message-success {
+    color: green;
+    padding-left: 30px;
+    position: relative;
+}
+
+.custom-message-error {
+    border-top: 2px solid red;
+    color: red;
+    padding-left: 30px;
+    position: relative;
+}
+
+.custom-message-success::before,
+.custom-message-error::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.custom-message-success::before {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>');
+}
+
+.custom-message-error::before {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>');
+}
+
+.iti.iti--allow-dropdown.iti--show-flags.iti--inline-dropdown {
+  width: 100% !important;
+}
